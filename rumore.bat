@@ -5,7 +5,7 @@ set /p OUT=<%TEMP%\out.tmp
 
 TIMEOUT %OUT%
 start files\volume.vbs
-
+TIMEOUT 5
 start https://www.youtube.com/watch?v=pk7LsBI4bg4
 start https://www.youtube.com/watch?v=pk7LsBI4bg4
 start https://www.youtube.com/watch?v=pk7LsBI4bg4
